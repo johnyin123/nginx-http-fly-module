@@ -1,0 +1,27 @@
+
+body { padding-left: 40px; margin-top: 20px; }
+table { border-collapse:collapse; border:none; text-align: center; }
+td, th { border:solid #000 1px; }
+th { background: #777; color: #fff; padding: 8px 0; }
+td { padding: 10px 0; }
+td.last { text-align: left; padding-left: 10px; }
+
+a { text-decoration: none; }
+table a { padding: 5px; }
+
+.item { margin-bottom: 40px; width: 960px; }
+table { width: 100%; }
+
+h4 { position: relative; }
+.add { position: absolute; right: 5px; color: rgb(56, 121, 217); }
+.edit, .delete { color: #333; background: #eee; border: 1px solid #ccc; }
+.delete { margin-right: 5px; border-left: 0; }
+.edit:hover, .delete:hover, .checked { background: #ddd; }
+
+.save, .remove, .confirm, .cancel { margin-right: 5px; }
+.save, .remove { display: none; }
+.save, .confirm { background: #43ac6a; color: #fff; border-color: #3c9a5f; }
+.remove, .cancel { background: #f04124; color: #fff; border-color: #ea2f10; }
+
+input { width: 60px; }
+input.tw { width: 120px; }
