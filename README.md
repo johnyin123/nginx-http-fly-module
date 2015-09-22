@@ -4,7 +4,7 @@
 
 upstream a-backend {
 
-    zone  fly  128k;
+   zone  fly  128k;
     
    192.168.1.101:81;
    
@@ -16,7 +16,7 @@ upstream a-backend {
 
 upstream b-backend {
 
-    zone  fly  128k;
+   zone  fly  128k;
     
    192.168.1.102:81;
    
